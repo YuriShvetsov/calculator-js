@@ -1,0 +1,51 @@
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "my build",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./build/webpack.build.conf.js",
+    "dev": "webpack-dev-server --port 9000 --config ./build/webpack.dev.conf.js --open"
+  },
+  "keywords": [
+    "js",
+    "webpack"
+  ],
+  "browserslist": [
+    ">1%",
+    "last 3 version"
+  ],
+  "author": "Yuri Shvetsov",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "autoprefixer": "^9.7.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node": "^13.10.1",
+    "node-sass": "^4.13.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuriShvetsov/webpack-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YuriShvetsov/webpack-template/issues"
+  },
+  "homepage": "https://github.com/YuriShvetsov/webpack-template#readme"
+}

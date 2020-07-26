@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="assets/icons/calculator.svg" type="image/x-icon">
+</head>
+<body>
+
+    <div id="app" class="calc">
+
+        <div class="calc__container">
+            <div class="calc__display js-display">
+                <div class="calc__result js-result">0</div>
+                <div class="calc__expression js-expression"></div>
+            </div>
+            <div class="calc__controls">
+                <div class="calc__row">
+                    <button class="calc__button calc__button_type_op calc__button_mode_color-text" data-prop="clear">ac</button>
+                    <button class="calc__button calc__button_type_op" data-prop="sign">+/-</button>
+                    <button class="calc__button calc__button_type_op" data-prop="percent">%</button>
+                    <button class="calc__button calc__button_type_op" data-prop="divide">/</button>
+                </div>
+                <div class="calc__row">
+                    <button class="calc__button calc__button_type_num" data-prop="7">7</button>
+                    <button class="calc__button calc__button_type_num" data-prop="8">8</button>
+                    <button class="calc__button calc__button_type_num" data-prop="9">9</button>
+                    <button class="calc__button calc__button_type_op" data-prop="multiply">*</button>
+                </div>
+                <div class="calc__row">
+                    <button class="calc__button calc__button_type_num" data-prop="4">4</button>
+                    <button class="calc__button calc__button_type_num" data-prop="5">5</button>
+                    <button class="calc__button calc__button_type_num" data-prop="6">6</button>
+                    <button class="calc__button calc__button_type_op" data-prop="subtract">-</button>
+                </div>
+                <div class="calc__row">
+                    <button class="calc__button calc__button_type_num" data-prop="1">1</button>
+                    <button class="calc__button calc__button_type_num" data-prop="2">2</button>
+                    <button class="calc__button calc__button_type_num" data-prop="3">3</button>
+                    <button class="calc__button calc__button_type_op" data-prop="add">+</button>
+                </div>
+                <div class="calc__row">
+                    <button class="calc__button calc__button_type_num calc__button_mode_wide" data-prop="0">0</button>
+                    <button class="calc__button calc__button_type_op" data-prop=".">,</button>
+                    <button class="calc__button calc__button_type_op calc__button_mode_color-bg" data-prop="solve">=</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

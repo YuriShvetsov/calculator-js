@@ -1,0 +1,21 @@
+/* Common styles */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.h1 {
+    margin: 8px 0;
+    font-size: 32px;
+}
+
+.h1_align_center {
+    text-align: center;
+}
+
+.h1_capitalize {
+    text-transform: capitalize;
+}
