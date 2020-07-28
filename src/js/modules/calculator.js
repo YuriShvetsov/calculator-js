@@ -57,15 +57,6 @@ const model = {
         let result = this.getDecimalNumber(+this.state.prev / +this.state.cur);
         return result;
     },
-    percent: function() {
-        let percentPart = this.state.cur = this.getDecimalNumber(this.state.cur / 100).toString();
-
-        this.state.cur = percentPart;
-
-        if (this.state.operation) {
-            this.solve();
-        }
-    },
 
     /* Main operations */
 
@@ -105,6 +96,15 @@ const model = {
         let solving = this.state.operation.func();
 
         this.state.result = solving.toString();
+    },
+    percent: function() {
+        let percentPart = this.getDecimalNumber(this.state.cur / 100);
+
+        this.state.cur = percentPart.toString();
+
+        if (this.state.operation) {
+            this.solve();
+        }
     },
 
     /* Main methods */
