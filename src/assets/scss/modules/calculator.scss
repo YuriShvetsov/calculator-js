@@ -8,7 +8,8 @@
     width: 100%;
     min-height: 100vh;
     padding: 45px 10px;
-    background-color: #e6e9eb;
+    background-color: #ffffff;
+    background-image: linear-gradient(45deg, #5d46df, #f82d2d);
 }
 
 .calc__container {
@@ -17,7 +18,7 @@
     width: 270px;
     margin: 25px auto;
     border-radius: 5px;
-    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 8px rgba(0,0,0,0.2);
     overflow: hidden;
 }
 
@@ -104,7 +105,7 @@
 }
 
 .calc__button_mode_color-bg:hover {
-    background-image: linear-gradient(45deg, #c53e84, #e7a727);
+    background-image: linear-gradient(45deg, #df4694, #f8b42d);
 }
 
 @media screen and (max-width: 320px) {
